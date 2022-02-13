@@ -8,6 +8,7 @@ function M.config()
 
   local actions = require "telescope.actions"
   telescope.load_extension "fzf"
+  telescope.load_extension "projects"
 
   telescope.setup {
     defaults = {
