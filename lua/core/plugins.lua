@@ -17,6 +17,10 @@ packer.startup {
     }
 
     use {
+      "McAuleyPenney/tidy.nvim"
+    }
+
+    use {
       "ggandor/lightspeed.nvim"
     }
 
