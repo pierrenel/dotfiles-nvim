@@ -7,7 +7,7 @@ function M.config()
   end
 
   treesitter.setup {
-    ensure_installed = {},
+    ensure_installed = {'javascript'},
     sync_install = false,
     ignore_install = {},
     highlight = {
