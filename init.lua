@@ -21,5 +21,4 @@ for _, source in ipairs(sources) do
 end
 
 utils.user_settings()
-
 utils.compiled()
