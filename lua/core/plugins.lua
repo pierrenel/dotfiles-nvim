@@ -17,6 +17,17 @@ packer.startup {
     }
 
     use {
+      "ggandor/lightspeed.nvim"
+    }
+
+    use {
+      'tanvirtin/vgit.nvim',
+      requires = {
+        'nvim-lua/plenary.nvim'
+      }
+    }
+
+    use {
       "ahmedkhalf/project.nvim",
       config = function()
         require("project_nvim").setup {
