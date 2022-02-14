@@ -17,7 +17,7 @@ function M.config()
     orange = "#FF8800",
     violet = "#a9a1e1",
     magenta = "#c678dd",
-    blue = "#51afef",
+    blue = "#1f1d2e",
     red = "#ec5f67",
   }
 

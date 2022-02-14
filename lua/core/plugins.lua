@@ -16,6 +16,15 @@ packer.startup {
       "atelierbram/Base2Tone-vim"
     }
 
+    use({
+        'rose-pine/neovim',
+        as = 'rose-pine',
+        tag = 'v1.*',
+        config = function()
+            vim.cmd('colorscheme rose-pine')
+        end
+    })
+
     use {
       "EdenEast/nightfox.nvim"
     }
@@ -145,10 +154,30 @@ packer.startup {
       after = "bufferline.nvim",
       config = function()
         require("configs.lualine").config()
+        require('lualine').setup({
+          options = {
+            ---@usage 'rose-pine' | 'rose-pine-alt'
+            theme = 'rose-pine'
+          }
+        })
       end,
       disable = not config.enabled.lualine,
     }
 
+    -- use({
+    --   'nvim-lualine/lualine.nvim',
+    --   -- fix mismatch palette between variants
+    --   event = 'ColorScheme',
+    --   config = function()
+    --     require('lualine').setup({
+    --       options = {
+    --         ---@usage 'rose-pine' | 'rose-pine-alt'
+    --         theme = 'rose-pine'
+    --       }
+    --     })
+    --   end
+    -- })
+    --
     -- Syntax highlighting
     use {
       "nvim-treesitter/nvim-treesitter",

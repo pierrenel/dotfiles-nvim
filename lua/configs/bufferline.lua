@@ -8,14 +8,14 @@ function M.config()
 
   local colors = {
     red = "#d47d85",
-    red_1 = "#ec5f67",
+    red_1 = "#ebbcba",
     grey = "#abb2bf",
     grey_1 = "#787e87",
     grey_2 = "#D3D3D3",
-    black = "#1e222a",
-    black_1 = "#252931",
-    black_2 = "#2c323c",
-    green = "#95be76",
+    black = "#0f0D11",
+    black_1 = "#1A1725",
+    black_2 = "#1A1725",
+    green = "#31748f",
     none = "NONE",
   }
 
