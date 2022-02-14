@@ -11,6 +11,14 @@ end
 packer.startup {
   function(use)
     -- Plugin manager
+    --
+    use {
+      "atelierbram/Base2Tone-vim"
+    }
+
+    use {
+      "EdenEast/nightfox.nvim"
+    }
 
     use {
       "rebelot/kanagawa.nvim"
@@ -19,8 +27,6 @@ packer.startup {
     use {
       "frenzyexists/aquarium-vim"
     }
-
-    use {'srcery-colors/srcery-vim', as = 'srcery'}
 
     use {
       "McAuleyPenney/tidy.nvim"
