@@ -1,7 +1,5 @@
 local config = {
 
-  colorscheme = "sonokai",
-
   plugins = {},
 
   virtual_text = true,

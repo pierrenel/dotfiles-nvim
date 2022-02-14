@@ -17,6 +17,12 @@ packer.startup {
     }
 
     use {
+      "frenzyexists/aquarium-vim"
+    }
+
+    use {'srcery-colors/srcery-vim', as = 'srcery'}
+
+    use {
       "McAuleyPenney/tidy.nvim"
     }
 
