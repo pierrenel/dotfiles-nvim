@@ -25,6 +25,9 @@ map("n", "<C-Right>", "<cmd>vertical resize +2<CR>", opts)
 -- Navigate buffers
 map("n", "<S-l>", "<cmd>bnext<CR>", opts)
 map("n", "<S-h>", "<cmd>bprevious<CR>", opts)
+-- map("n", "<S-]>", "<cmd>bnext<CR>", opts)
+-- map("n", "<S-[>", "<cmd>bprevious<CR>", opts)
+
 
 -- Move text up and down
 map("n", "<A-j>", "<Esc><cmd>m .+1<CR>==gi", opts)

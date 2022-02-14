@@ -48,10 +48,10 @@ function M.config()
     sections = {
       lualine_a = {},
       lualine_b = {},
-      lualine_y = {},
-      lualine_z = {},
       lualine_c = {},
       lualine_x = {},
+      lualine_y = {},
+      lualine_z = {},
     },
     inactive_sections = {
       lualine_a = {},
@@ -77,6 +77,12 @@ function M.config()
     end,
     color = { fg = colors.blue },
     padding = { left = 0, right = 0 },
+  }
+
+  ins_left {
+      "filename",
+      file_status = true, -- displays file status (readonly status, modified status)
+      path = 2, -- 0 = just filename, 1 = relative path, 2 = absolute path
   }
 
   ins_left {
