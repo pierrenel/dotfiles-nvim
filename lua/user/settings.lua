@@ -5,9 +5,9 @@ local set = vim.opt
 local config = {
 
   -- Set colorscheme
-  colorscheme = "nightfox",
+  -- colorscheme = "nightfox",
   -- colorscheme = "Base2Tone_ForestDark",
-  -- colorscheme = "kanagawa",
+  colorscheme = "kanagawa",
   -- colorscheme = "aquarium",
   -- colorscheme = "srcery",
   -- colorscheme Base2Tone_MorningDark
