@@ -85,21 +85,21 @@ function M.config()
       path = 2, -- 0 = just filename, 1 = relative path, 2 = absolute path
   }
 
-  ins_left {
+  ins_right {
     "branch",
     icon = "",
     color = { fg = colors.violet, gui = "bold" },
     padding = { left = 2, right = 1 },
   }
 
-  ins_left {
+  ins_right {
     "filetype",
     cond = conditions.buffer_not_empty,
     color = { fg = colors.magenta, gui = "bold" },
     padding = { left = 2, right = 1 },
   }
 
-  ins_left {
+  ins_right {
     "diff",
     symbols = { added = " ", modified = "柳", removed = " " },
     diff_color = {
